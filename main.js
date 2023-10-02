@@ -9,10 +9,11 @@ let contador = 0;
 
 //enquanto
 while (contador < 9) {
-    listaDeTeclas[0].onclick = tocaSomPom;
+
+    listaDeTeclas[contador].onclick = tocaSomPom;
 
     contador = contador + 1;
 
     console.log(contador);
-    
+
 }
